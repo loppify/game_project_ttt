@@ -33,6 +33,13 @@
       "playerX": "21",
       "playerO": "22",
       "result": "21 won"
+    },
+    {
+      "room": "3",
+      "date": "2026-05-25T10:41:44.973Z",
+      "playerX": "32",
+      "playerO": "31",
+      "result": "Draw"
     }
   ]
 }

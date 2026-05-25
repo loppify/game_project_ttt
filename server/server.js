@@ -11,8 +11,10 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: '*',
-    methods: ['GET', 'POST']
+    origin: "*",
+    methods: ["GET", "POST"],
+    allowedHeaders: ["my-custom-header"],
+    credentials: true
   }
 });
 
@@ -143,6 +145,6 @@ io.on('connection', (socket) => {
 });
 
 const PORT = 3001;
-server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server is running on http://0.0.0.0:${PORT}`);
 });
