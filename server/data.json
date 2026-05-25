@@ -1,0 +1,38 @@
+{
+  "leaderboard": {
+    "11": 2,
+    "12": 0,
+    "21": 1,
+    "22": 0
+  },
+  "history": [
+    {
+      "room": "1",
+      "date": "2026-05-25T08:51:02.551Z",
+      "playerX": "11",
+      "playerO": "12",
+      "result": "11 won"
+    },
+    {
+      "room": "1",
+      "date": "2026-05-25T08:51:43.113Z",
+      "playerX": "11",
+      "playerO": "12",
+      "result": "11 won"
+    },
+    {
+      "room": "1",
+      "date": "2026-05-25T08:52:34.090Z",
+      "playerX": "11",
+      "playerO": "12",
+      "result": "Draw"
+    },
+    {
+      "room": "2",
+      "date": "2026-05-25T09:36:39.756Z",
+      "playerX": "21",
+      "playerO": "22",
+      "result": "21 won"
+    }
+  ]
+}
